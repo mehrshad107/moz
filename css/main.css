@@ -92,10 +92,10 @@
   font-family: "YEKAN PLUS";
   font-style: normal;
   font-weight: 300;
-  src: url("https://cdn.jsdelivr.net/npm/font-yekan@0.0.4/style.min.css") format("embedded-opentype"), url("https://cdn.jsdelivr.net/npm/font-yekan@0.0.4/style.min.css") format("TTF"), url("https://cdn.jsdelivr.net/npm/font-yekan@0.0.4/style.min.css") format("truetype"), url("https://cdn.jsdelivr.net/npm/font-yekan@0.0.4/style.min.css") format("svg");
+  src: url("../fonts/YEKAN\ PLUS.TTF") format("embedded-opentype"), url("../fonts/YEKAN\ PLUS.TTF") format("truetype"), url("../fonts/YEKAN\ PLUS.TTF") format("svg");
 }
 @font-face {
-  font-family: "OpenSans";
+  font-family: "freesans";
   font-style: italic;
   font-weight: 300;
   src: url("https://cdn.jsdelivr.net/npm/font-yekan@0.0.4/style.min.css") format("embedded-opentype"), url("../fonts/OpenSans-LightItalic/OpenSans-LightItalic.woff") format("woff"), url("../fonts/OpenSans-LightItalic/OpenSans-LightItalic.ttf") format("truetype"), url("../fonts/OpenSans-LightItalic/OpenSans-LightItalic.svg#OpenSans") format("svg");
