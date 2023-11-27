@@ -47,11 +47,11 @@
 }
 
 .media-image-fullscreen-1 {
-  background-image: url("https://dummyimage.com/1920x1280/383838/8d8d8d");
+  background-image: url("../img/phonecall.jpg");
 }
 
 .media-image-fullscreen-2 {
-  background-image: url("https://dummyimage.com/1920x1280/383838/8d8d8d");
+  background-image: url("../img/phone.jpg");
 }
 
 .swiper-slide-image-1 {
@@ -71,15 +71,15 @@
 }
 
 .media-services {
-  background-image: url("https://dummyimage.com/1920x1280/383838/8d8d8d");
+  background-image: url("../img/phone.jpg");
 }
 
 .inner-video {
-  background-image: url("https://dummyimage.com/1920x1280/383838/8d8d8d");
+  background-image: url("../img/phonecall.jpg");
 }
 
 .menu-image-1 {
-  background-image: url("https://dummyimage.com/1200x1500/383838/8d8d8d");
+  background-image: url("../img/call.png");
 }
 
 /* ------------------------------------------------*/
