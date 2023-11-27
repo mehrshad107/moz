@@ -89,10 +89,10 @@
 /* Fonts Start */
 /* ------------------------------------------------*/
 @font-face {
-  font-family: "OpenSans";
+  font-family: "YEKAN PLUS";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/OpenSans-Light/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light/OpenSans-Light.ttf") format("truetype"), url("../fonts/OpenSans-Light/OpenSans-Light.svg#OpenSans") format("svg");
+  src: url("../fonts/YEKAN\ PLUS.TTF") format("embedded-opentype"), url("../fonts/YEKAN\ PLUS.TTF") format("TTF"), url("../fonts/YEKAN\ PLUS.TTF") format("truetype"), url("../fonts/YEKAN\ PLUS.TTF") format("svg");
 }
 @font-face {
   font-family: "OpenSans";
@@ -122,7 +122,7 @@
   font-family: "OldStandardTT";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.woff") format("woff"), url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.ttf") format("truetype"), url("../fonts/OldStandardTT-Regular/OldStandardTT-Regular.svg#OldStandardTT") format("svg");
+  src: url("../fonts/YEKAN\ PLUS.TTF") format("embedded-opentype"), url("../fonts/YEKAN\ PLUS.TTF") format("truetype"), url("../fonts/YEKAN\ PLUS.TTF") format("svg");
 }
 /* ------------------------------------------------*/
 /* Fonts End */
