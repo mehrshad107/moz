@@ -88,36 +88,8 @@
 /* ------------------------------------------------*/
 /* Fonts Start */
 /* ------------------------------------------------*/
-@font-face {
-  font-family: "YEKAN PLUS";
-  font-style: normal;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "freesans";
-  font-style: italic;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "OpenSans";
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "OpenSans";
-  font-style: italic;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "OpenSans";
-  font-style: normal;
-  font-weight: 600;
-}
-@font-face {
-  font-family: "OldStandardTT";
-  font-style: normal;
-  font-weight: 400;
-}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-yekan@0.0.4/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-yekan@0.0.4/style.min.css">
 /* ------------------------------------------------*/
 /* Fonts End */
 /* ------------------------------------------------*/
