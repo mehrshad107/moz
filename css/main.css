@@ -85,7 +85,14 @@
 /* ------------------------------------------------*/
 /* Template Backgrounds End */
 /* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Fonts Start */
+/* ------------------------------------------------*/
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-yekan@0.0.4/style.css">
 
+/* ------------------------------------------------*/
+/* Fonts End */
+/* ------------------------------------------------*/
 /* ------------------------------------------------*/
 /* Base CSS Styles Start */
 /* ------------------------------------------------*/
@@ -141,8 +148,8 @@ input::-moz-focus-inner {
 }
 
 html {
-  font-family: 'Yekan';
-  font-size: 1.1rem;
+  font-family: sans-serif;
+  font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
