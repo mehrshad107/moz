@@ -85,6 +85,18 @@
 /* ------------------------------------------------*/
 /* Template Backgrounds End */
 /* ------------------------------------------------*/
+body,
+html {
+    height: 100%;
+    font-family: "Yekan";
+    font-size: 1.1rem;
+    overflow: hidden;
+    position: relative;
+    margin-right: 0 !important;
+    margin: 0;
+    background-color: #f3f3f3;
+    
+}
 /* ------------------------------------------------*/
 /* Base CSS Styles Start */
 /* ------------------------------------------------*/
@@ -157,7 +169,7 @@ body {
   min-width: 320px;
   overflow-x: hidden !important;
   overflow-y: auto;
-  font: normal 400 1.6rem/1.7 "OpenSans", sans-serif;
+  font: normal 400 1.6rem/1.7 "Yekan";
   color: #444444;
   background-color: #111111;
 }
@@ -344,7 +356,7 @@ body.loaded .intro__controls {
 /* Typography Start */
 /* ------------------------------------------------*/
 h1 {
-  font: normal 400 4.6rem/1.06 "OldStandardTT", serif;
+  font: normal 400 4.6rem/1.06 "yekan";
   margin: 2.4rem 0 2.8rem 0;
   color: #111111;
 }
@@ -394,7 +406,7 @@ h1.large {
 }
 
 .headline__text {
-  font: italic 300 1.5rem/1.7 "OpenSans", sans-serif;
+  font: italic 300 1.5rem/1.7 "Yekan";
   margin-bottom: 4.2rem;
   color: #444444;
 }
@@ -437,7 +449,7 @@ h1.large {
 }
 
 h2 {
-  font: normal 400 4rem/1.1 "OldStandardTT", serif;
+  font: normal 400 4rem/1.1 "yekan";
   margin-bottom: 3rem;
 }
 @media only screen and (min-width: 768px) {
@@ -453,13 +465,12 @@ h2 {
 
 .info__title .title-content {
   position: relative;
-  font: normal 400 1.4rem/1 "OpenSans", sans-serif;
+  font: normal 400 1.4rem/1 "Yekan";
 }
 .info__title .title-content .section-title {
   display: block;
   white-space: nowrap;
   text-transform: uppercase;
-  letter-spacing: 0.22rem;
   margin-bottom: 4.4rem;
 }
 @media only screen and (min-width: 992px) {
@@ -479,27 +490,26 @@ h2 {
 }
 
 h3 {
-  font: normal 400 3rem/1.1 "OldStandardTT", serif;
+  font: normal 400 3rem/1.1 "Yekan";
 }
 h3 small {
   display: block;
-  font: normal 400 1.2rem/1.2 "OpenSans", sans-serif;
+  font: normal 400 1.2rem/1.2 "Yekan";
   text-transform: uppercase;
-  letter-spacing: 0.22rem;
   margin-bottom: 1rem;
 }
 
 h4 {
-  font: normal 400 2.8rem/1.2 "OldStandardTT", serif;
+  font: normal 400 2.8rem/1.2 "Yekan";
   margin-bottom: 2.4rem;
 }
 
 h5 {
-  font: normal 400 2.4rem/1.2 "OldStandardTT", serif;
+  font: normal 400 2.4rem/1.2 "Yekan";
 }
 
 p {
-  font: normal 300 1.6rem/1.7 "OpenSans", sans-serif;
+  font: normal 300 1.6rem/1.7 "Yekan";
   color: #444444;
 }
 p.section-text {
@@ -558,7 +568,7 @@ p.section-text:last-of-type {
   color: #ffffff;
 }
 .contact-data__item ul {
-  font: normal 300 1.5rem/1.7 "OpenSans", sans-serif;
+  font: normal 300 1.5rem/1.7 "Yekan"f;
   margin-top: 0.2rem;
 }
 .contact-data__item ul a {
@@ -601,7 +611,7 @@ p.section-text:last-of-type {
 }
 
 .footer__slogan p {
-  font: italic 400 1.5rem/1.7 "OpenSans", sans-serif;
+  font: italic 400 1.5rem/1.7 "Yekan";
   max-width: 400px;
   margin: 0 auto 3rem;
 }
@@ -645,7 +655,7 @@ p.section-text:last-of-type {
 }
 
 .popup-title__title {
-  font: normal 400 3rem/1.2 "OldStandardTT", serif;
+  font: normal 400 3rem/1.2 "Yekan";
   margin-bottom: 3rem;
   color: #111111;
 }
@@ -661,7 +671,7 @@ p.section-text:last-of-type {
 }
 
 .popup-title__text {
-  font: normal 300 1.5rem/1.7 "OpenSans", sans-serif;
+  font: normal 300 1.5rem/1.7 "Yekan";
   color: #444444;
 }
 @media only screen and (min-width: 768px) {
@@ -716,9 +726,9 @@ p.section-text:last-of-type {
   color: #ffffff;
 }
 .menu-trigger .menu-caption {
-  font: normal 600 1.2rem/1 "OpenSans", sans-serif;
-  letter-spacing: 0.26rem;
+  font: normal 600 1.2rem/1 "Yekan";
   text-transform: uppercase;
+  letter-spacing: 0rem;
   margin-right: 5rem;
   color: #ffffff;
   -webkit-transition: color 0.5s ease-in-out;
@@ -796,8 +806,7 @@ p.section-text:last-of-type {
 }
 .menu-close .close-caption,
 .popup-close .close-caption {
-  font: normal 600 1.2rem/1 "OpenSans", sans-serif;
-  letter-spacing: 0.26rem;
+  font: normal 600 1.2rem/1 "Yekan";
   text-transform: uppercase;
   margin-right: 5rem;
   color: #111111;
@@ -912,8 +921,7 @@ p.section-text:last-of-type {
   font-size: 1.4rem;
 }
 .btn-s .btn-caption {
-  font: normal 600 1.2rem/1.8 "OpenSans", sans-serif;
-  letter-spacing: 0.22rem;
+  font: normal 600 1.2rem/1.8 "Yekan";
   text-transform: uppercase;
   margin-right: 0.6rem;
 }
@@ -940,8 +948,7 @@ p.section-text:last-of-type {
   height: 52px;
   line-height: 52px;
   padding: 0 5.6rem;
-  font: normal 600 1.2rem/52px "OpenSans", sans-serif;
-  letter-spacing: 0.22rem;
+  font: normal 600 1.2rem/52px "Yekan";
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -977,9 +984,8 @@ p.section-text:last-of-type {
        border-radius: 50%;
   background-color: transparent;
   border: 1px solid #ffffff;
-  font: normal 400 1.6rem/100px "OpenSans", sans-serif;
+  font: normal 400 1.6rem/100px "Yekan";
   text-transform: uppercase;
-  letter-spacing: 0.22rem;
   text-align: center;
   color: #ffffff;
   overflow: hidden;
@@ -1076,7 +1082,7 @@ form input, form textarea {
   padding: 0;
   background-color: transparent;
   padding: 1.2rem 0.3rem;
-  font: normal 300 1.5rem/1.7 "OpenSans", sans-serif;
+  font: normal 300 1.5rem/1.7 "Yekan";
   -webkit-transition: all 0.6s;
   -o-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -1096,7 +1102,7 @@ form .inputs-description {
   width: 100%;
   margin-bottom: 1.4rem;
   text-align: right;
-  font: normal 400 1.3rem/1 "OpenSans", sans-serif;
+  font: normal 400 1.3rem/1 "Yekan";
 }
 @media only screen and (min-width: 768px) {
   form input, form textarea {
@@ -1199,12 +1205,12 @@ form .inputs-description {
 }
 
 .reply-group__title {
-  font: normal 400 3rem/1.06 "OldStandardTT", serif;
+  font: normal 400 3rem/1.06 "Yekan";
 }
 
 .reply-group__text {
   display: block;
-  font: normal 300 1.5rem/1.7 "OpenSans", sans-serif;
+  font: normal 300 1.5rem/1.7 "Yekan";
   margin-top: 0.2rem;
 }
 
@@ -1797,7 +1803,7 @@ form .inputs-description {
 .menu__navigation .navigation li a {
   display: inline-block;
   position: relative;
-  font: normal 400 4rem/1.2 "OldStandardTT", serif;
+  font: normal 400 4rem/1.2 "Yekan";
   color: #444444;
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
@@ -1837,9 +1843,8 @@ form .inputs-description {
   padding: 30px 0;
 }
 .menu__navigation .navigation-copyright .copyright p, .menu__navigation .navigation-copyright .copyright a {
-  font: normal 300 1.2rem/1.2 "OpenSans", sans-serif;
+  font: normal 300 1.2rem/1.2 "Yekan";
   text-transform: uppercase;
-  letter-spacing: 0.16rem;
 }
 .menu__navigation .navigation-copyright .copyright a {
   -webkit-transition: color 0.3s ease-in-out;
@@ -1941,18 +1946,18 @@ form .inputs-description {
 }
 .menu__contact .contact-content .contact .contact-item {
   position: relative;
-  font: normal 300 1.5rem/1.7 "OpenSans", sans-serif;
+  font: normal 300 1.5rem/1.7 "Yekan";
   margin-bottom: 3.2rem;
 }
 .menu__contact .contact-content .contact .contact-item:last-of-type {
   margin-bottom: 0;
 }
 .menu__contact .contact-content .contact .contact-item p {
-  font: normal 300 1.5rem/1.7 "OpenSans", sans-serif;
+  font: normal 300 1.5rem/1.7 "Yekan";
 }
 .menu__contact .contact-content .contact .contact-item a {
   position: relative;
-  font: normal 300 1.5rem/1.7 "OpenSans", sans-serif;
+  font: normal 300 1.5rem/1.7 "Yekan";
   color: #707070;
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
@@ -1997,7 +2002,7 @@ form .inputs-description {
   margin-right: 2rem;
 }
 .menu__contact .contact-content .contact .contact-item ul li a {
-  font: normal 400 1.6rem/1.2 "OpenSans", sans-serif;
+  font: normal 400 1.6rem/1.2 "Yekan";
 }
 .menu__contact .contact-content .contact .contact-item ul li a::after {
   display: none;
@@ -2057,8 +2062,7 @@ form .inputs-description {
 }
 
 .countdown-days #countdown {
-  font: normal 400 11rem/1 "OldStandardTT", serif;
-  letter-spacing: -0.2rem;
+  font: normal 400 11rem/1 "Yekan";
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
@@ -2067,9 +2071,8 @@ form .inputs-description {
 }
 .countdown-days .help-text {
   display: block;
-  font: normal 400 1.4rem/1 "OpenSans", sans-serif;
+  font: normal 400 1.4rem/1 "Yekan";
   text-transform: uppercase;
-  letter-spacing: 0.22rem;
   color: #ffffff;
 }
 @media only screen and (min-width: 768px) {
@@ -2083,15 +2086,13 @@ form .inputs-description {
   padding-bottom: 1px;
 }
 .countdown-small #countdown {
-  font: normal 400 5rem/1 "OldStandardTT", serif;
-  letter-spacing: -0.2rem;
+  font: normal 400 5rem/1 "Yekan";
 }
 .countdown-small .countdown-period {
   display: none;
 }
 .countdown-small .help-text {
-  font: normal 400 1.2rem/1.8 "OpenSans", sans-serif;
-  letter-spacing: 0.22rem;
+  font: normal 400 1.2rem/1.8 "Yekan";
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -2235,7 +2236,7 @@ form .inputs-description {
 .main-swiper-button-next span::after {
   content: "\f3d1";
   display: inline-block;
-  font-family: "Ionicons";
+  font-family: "yekan";
 }
 @media only screen and (min-width: 1200px) {
   .main-swiper-button-next {
@@ -2257,7 +2258,7 @@ form .inputs-description {
 .main-swiper-button-prev span::before {
   content: "\f3cf";
   display: inline-block;
-  font-family: "Ionicons";
+  font-family: "yekan";
 }
 @media only screen and (min-width: 1200px) {
   .main-swiper-button-prev {
@@ -2334,8 +2335,7 @@ form .inputs-description {
   margin: 0;
   padding: 0;
   outline: none;
-  font: normal 400 1.2rem/1.7 "OpenSans", sans-serif;
-  letter-spacing: 0.26rem;
+  font: normal 400 1.2rem/1.7 "Yekan";
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
@@ -2729,7 +2729,7 @@ form .inputs-description {
   position: absolute;
   top: 0;
   left: 2px;
-  font: normal 400 2.6rem/1.06 "OldStandardTT", serif;
+  font: normal 400 2.6rem/1.06 "Yekan";
   height: 4rem;
   line-height: 4.6rem;
 }
@@ -2752,7 +2752,7 @@ form .inputs-description {
   position: absolute;
   top: 0;
   right: 2px;
-  font: normal 400 2.4rem/1.06 "OldStandardTT", serif;
+  font: normal 400 2.4rem/1.06 "Yekan";
   height: 4rem;
   line-height: 4.6rem;
 }
@@ -2958,15 +2958,14 @@ form .inputs-description {
 }
 
 .pswp__caption__center h3 {
-  font: normal 400 3rem/1.2 "OldStandardTT", serif;
+  font: normal 400 3rem/1.2 "yekan";
   margin-bottom: 2rem;
   color: #ffffff;
 }
 .pswp__caption__center h3 small {
   display: block;
-  font: normal 400 1.3rem/1.2 "OpenSans", sans-serif;
+  font: normal 400 1.3rem/1.2 "yekan";
   text-transform: uppercase;
-  letter-spacing: 0.26rem;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 0.8rem;
 }
@@ -2976,7 +2975,7 @@ form .inputs-description {
 }
 
 .pswp__counter {
-  font-family: "OldStandardTT", serif;
+  font-family: "Yekan";
   font-size: 1.6rem;
 }
 
