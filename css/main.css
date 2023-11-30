@@ -78,9 +78,7 @@
   background-image: url("../img/phonecall.jpg");
 }
 
-.menu-image-1 {
-  background-image: url("../img/call.png");
-}
+
 
 /* ------------------------------------------------*/
 /* Template Backgrounds End */
@@ -1563,19 +1561,7 @@ form .inputs-description {
   transition: opacity 0.3s, filter 0.3s;
   transition: opacity 0.3s, filter 0.3s, -webkit-filter 0.3s;
 }
-.menu .menu__image {
-  opacity: 0;
-  -webkit-transform: translateX(30px);
-     -moz-transform: translateX(30px);
-      -ms-transform: translateX(30px);
-          transform: translateX(30px);
-  -webkit-transition: opacity 0.5s 1.6s, -webkit-filter 0.5s 1.6s, -webkit-transform 0.5s 1.6s ease-in-out;
-  transition: opacity 0.5s 1.6s, -webkit-filter 0.5s 1.6s, -webkit-transform 0.5s 1.6s ease-in-out;
-  -o-transition: filter 0.5s 1.6s, opacity 0.5s 1.6s, transform 0.5s 1.6s ease-in-out;
-  -moz-transition: filter 0.5s 1.6s, opacity 0.5s 1.6s, transform 0.5s 1.6s ease-in-out, -moz-transform 0.5s 1.6s ease-in-out;
-  transition: filter 0.5s 1.6s, opacity 0.5s 1.6s, transform 0.5s 1.6s ease-in-out;
-  transition: filter 0.5s 1.6s, opacity 0.5s 1.6s, transform 0.5s 1.6s ease-in-out, -webkit-filter 0.5s 1.6s, -webkit-transform 0.5s 1.6s ease-in-out, -moz-transform 0.5s 1.6s ease-in-out;
-}
+
 .menu .menu__contact,
 .menu .navigation-copyright {
   opacity: 0;
@@ -1909,40 +1895,13 @@ form .inputs-description {
   position: relative;
   height: 600px;
 }
-.menu__image .menu-image {
-  position: absolute;
-  top: 0;
-  left: -5vw;
-  width: -moz-calc(100% + 10vw);
-  width: calc(100% + 10vw);
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  -moz-background-size: cover;
-       background-size: cover;
-  background-color: #FE52A0;
-}
-@media only screen and (min-width: 768px) {
-  .menu__image {
-    height: 760px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .menu__image {
-    height: 100%;
-    min-height: 100%;
-  }
-  .menu__image .menu-image {
-    left: 0;
-    width: 100%;
-  }
-}
 
 .menu__contact {
   position: relative;
 }
 .menu__contact .contact-content {
   padding: 60px 0;
+  
 }
 .menu__contact .contact-content .contact .contact-item {
   position: relative;
@@ -1985,7 +1944,7 @@ form .inputs-description {
   width: 100%;
 }
 .menu__contact .contact-content .contact .contact-item a.light {
-  color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
 }
 .menu__contact .contact-content .contact .contact-item a.light::after {
   background-color: #ffffff;
@@ -2841,6 +2800,10 @@ form .inputs-description {
   padding: 100px 0;
 }
 
+.footer_text {
+  text-align: left;
+}
+
 .footer__content {
   position: relative;
   padding: 0 5vw;
@@ -2848,7 +2811,7 @@ form .inputs-description {
 
 .footer__logo {
   text-align: center;
-  margin-bottom: 3.6rem;
+  margin-bottom: 3rem;
 }
 .footer__logo img {
   width: auto;
