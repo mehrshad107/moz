@@ -51,7 +51,7 @@
 }
 
 .media-image-fullscreen-2 {
-  background-image: url("../img/phone.jpg");
+  background-image: url("../img/white-min.jpg");
 }
 
 .swiper-slide-image-1 {
@@ -71,7 +71,7 @@
 }
 
 .media-services {
-  background-image: url("../img/phone.jpg");
+  background-image: url("../img/white-min.jpg");
 }
 
 .inner-video {
@@ -237,11 +237,13 @@ img {
 }
 
 .bg-dark {
-  background-color:#FE7AB5;
+  background-color: #100c08 ;
 }
 
 .bg-medium {
-  background-color: #FE52A0;
+  background-color: #FFA500
+
+  ;
 }
 
 .color-layer {
@@ -448,16 +450,22 @@ h1.large {
 
 h2 {
   font: normal 400 4rem/1.1 "yekan";
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+  color:#ffffff;
+
 }
 @media only screen and (min-width: 768px) {
   h2 {
-    font-size: 5rem;
+    font-size: 3rem;
+      color: #ffffff;
+
   }
 }
 @media only screen and (min-width: 1400px) {
   h2 {
-    font-size: 6rem;
+    font-size: 3rem;
+    color: #ffffff;
+
   }
 }
 
@@ -508,7 +516,7 @@ h5 {
 
 p {
   font: normal 300 1.6rem/1.7 "Yekan";
-  color: #444444;
+  color: #ffffff;
 }
 p.section-text {
   padding-left: 0.2rem;
@@ -1320,13 +1328,17 @@ form .inputs-description {
 }
 @media only screen and (min-width: 1200px) {
   .header {
-    background-color: #FE52A0;
+    background-color:#FFA500
+
+    ;
   }
   .header.transparent {
     background-color: solid;
   }
   .header.transparent.reduced {
-    background-color: #FE52A0;
+    background-color: #FFA500
+
+    ;
   }
 }
 
@@ -2030,7 +2042,7 @@ form .inputs-description {
 }
 .countdown-days .help-text {
   display: block;
-  font: normal 400 1.4rem/1 "Yekan";
+  font: normal 400 3.4rem/1 "Yekan";
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -2795,13 +2807,18 @@ form .inputs-description {
 /* ------------------------------------------------*/
 /* Footer Start */
 /* ------------------------------------------------*/
+.footer .content-block {
+  display: flex;
+  justify-content: center; /* Centers content in each block */
+  align-items: center;
+  text-align: center;
+}
 .footer {
   position: relative;
-  padding: 100px 0;
 }
 
-.footer_text {
-  text-align: left;
+.footer__text {
+  text-align: right; /* Aligns new text to the right */
 }
 
 .footer__content {
@@ -2810,13 +2827,9 @@ form .inputs-description {
 }
 
 .footer__logo {
-  text-align: center;
-  margin-bottom: 3rem;
+  text-align: left; /* Aligns logo to the left */
 }
-.footer__logo img {
-  width: auto;
-  margin: 0 auto;
-}
+
 
 .footer__slogan,
 .footer__socials {
