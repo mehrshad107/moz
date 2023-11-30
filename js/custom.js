@@ -1,17 +1,4 @@
 // ------------------------------------------------
-// Project Name: Allurio - Coming Soon & Portfolio Template
-// Project Description: Allurio - versatile and trendy coming soon & portfolio template to kick-start your project
-// Tags: mix_design, allurio, coming soon, under construction, template, coming soon page, landing page, one page, html5, css3
-// Version: 2.0.3
-// Build Date: September 2019
-// Last Update: October 2023
-// This product is available exclusively on Themeforest
-// Author: mix_design
-// Author URI: https://themeforest.net/user/mix_design
-// File name: custom.js
-// ------------------------------------------------
-
-// ------------------------------------------------
 // Table of Contents
 // ------------------------------------------------
 //
@@ -174,9 +161,9 @@ $(function() {
       transition: 'fade2',
       transitionDuration: 2000,
       slides: [
-        { src: "https://dummyimage.com/1920x1280/383838/8d8d8d" },
-        { src: "https://dummyimage.com/1920x1280/383838/8d8d8d" },
-        { src: "https://dummyimage.com/1920x1280/383838/8d8d8d" }
+        { src: "img/phonecall.jpg" },
+        { src: "img/phonecall.jpg" },
+        { src: "img/phonecall.jpg" }
       ],
       animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
     });
