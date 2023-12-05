@@ -1,10 +1,3 @@
-// ------------------------------------------------
-// Author: dimsemenov
-// Author URI: https://github.com/dimsemenov
-// File name: gallery-init.js
-// https://codepen.io/dimsemenov/pen/ZYbPJM
-// ------------------------------------------------
-
 var initPhotoSwipeFromDOM = function(gallerySelector) {
 
     // parse slide data (url, title, size ...) from DOM elements
