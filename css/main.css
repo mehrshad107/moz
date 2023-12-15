@@ -93,10 +93,9 @@ html {
     margin-right: 0 !important;
     margin: 0;
     background-color: #f3f3f3;
-
-overflow-y:hidden;
+    overflow-y: auto;
+    
 }
-  
 /* ------------------------------------------------*/
 /* Base CSS Styles Start */
 /* ------------------------------------------------*/
@@ -168,7 +167,7 @@ body {
   position: relative;
   min-width: 320px;
   overflow-x: hidden !important;
-  overflow-y: hidden;
+  overflow-y: auto;
   font: normal 400 1.6rem/1.7 "Yekan";
   color: #444444;
   background-color: #111111;
@@ -398,7 +397,7 @@ h1.large {
     font-size: 8rem;
   }
   h1.large {
-    font-size: 13rem;
+    font-size: 11rem;
   }
 }
 
