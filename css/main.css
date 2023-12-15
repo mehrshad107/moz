@@ -93,8 +93,10 @@ html {
     margin-right: 0 !important;
     margin: 0;
     background-color: #f3f3f3;
-    
+
+overflow-y:hidden;
 }
+  
 /* ------------------------------------------------*/
 /* Base CSS Styles Start */
 /* ------------------------------------------------*/
@@ -166,7 +168,7 @@ body {
   position: relative;
   min-width: 320px;
   overflow-x: hidden !important;
-  overflow-y: auto;
+  overflow-y: hidden;
   font: normal 400 1.6rem/1.7 "Yekan";
   color: #444444;
   background-color: #111111;
@@ -2989,6 +2991,7 @@ form .inputs-description {
 .pswp__button--close:active {
   opacity: 1;
 }
+
 
 /* ------------------------------------------------*/
 /* Gallery End */
