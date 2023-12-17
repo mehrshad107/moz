@@ -955,7 +955,7 @@ p.section-text:last-of-type {
   height: 52px;
   line-height: 52px;
   padding: 0 5.6rem;
-  font: normal 600 1.2rem/52px "Yekan";
+  font: normal 600 2rem/52px "Yekan";
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -2820,6 +2820,8 @@ form .inputs-description {
 
 .footer__text {
   text-align: right; /* Aligns new text to the right */
+  margin-top: 10px;
+  margin-bottom: 80px;
 }
 
 .footer__content {
