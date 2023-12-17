@@ -2839,6 +2839,52 @@ form .inputs-description {
   text-align: center;
 }
 
+.ltn__social-media ul {
+  list-style-type: none; /* Removes default list styling */
+  display: flex;        /* Aligns items in a row */
+  padding: 0;           /* Removes default padding */
+  margin: 0;            /* Removes default margin */
+}
+
+.ltn__social-media ul li {
+  margin-right: 10px;   /* Adds space between icons */
+}
+
+.ltn__social-media ul li a {
+  color: white;        /* Sets the icon color to white */
+  font-size: medium;   /* Sets the icon size to medium */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.ltn__social-media ul li a i {
+  display: block;       /* Makes the icons align properly */
+}
+
+.ltn__social-media {
+  display: flex;        /* Aligns the container in the center */
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center;  /* Centers the content vertically */
+}
+
+.ltn__social-media ul {
+  list-style-type: none; /* Removes default list styling */
+  display: flex;        /* Aligns items in a row */
+  padding: 0;           /* Removes default padding */
+  margin: 0;            /* Removes default margin */
+  gap: 20px;            /* Creates space between list items */
+}
+
+.ltn__social-media ul li a {
+  color: white;        /* Sets the icon color to white */
+  font-size: 18px;     /* Increases the icon size */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.ltn__social-media ul li a i {
+  display: block;       /* Makes the icons align properly */
+}
+
+
 /* ------------------------------------------------*/
 /* Footer End */
 /* ------------------------------------------------*/
