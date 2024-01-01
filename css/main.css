@@ -1,50 +1,6 @@
-/*! ------------------------------------------------
- * Table of Contents
- * ------------------------------------------------
- *  1. Template Backgrounds
- *  2. Fonts
- *  3. Base CSS Styles
- *  4. Loading Animation
- *  5. Typography
- *  6. Buttons & Controls
- *  7. Forms and Forms Reply Groups
- *  8. Animated Backgrounds
- *  9. Header
- *  10. Main Section
- *  11. Menu
- *  12. Socials
- *  13. Countdown
- *  14. Swiper Slider
- *  15. Popup Dialogs
- *  16. Inner Sections
- *  17. Skillbars
- *  18. Features
- *  19. Partners
- *  20. Inner Video
- *  21. Contact Data
- *  22. Footer
- *  23. Gallery
- * ------------------------------------------------
- * Table of Contents End
- * ------------------------------------------------ */
 /* ------------------------------------------------*/
 /* Template Backgrounds Start */
 /* ------------------------------------------------*/
-.media-image-1 {
-  background-image: url("https://dummyimage.com/1440x900/383838/8d8d8d");
-}
-
-.media-image-2 {
-  background-image: url("https://dummyimage.com/1440x900/383838/8d8d8d");
-}
-
-.media-image-split-1 {
-  background-image: url("https://dummyimage.com/1200x1400/383838/8d8d8d");
-}
-
-.media-image-split-2 {
-  background-image: url("https://dummyimage.com/1200x1400/383838/8d8d8d");
-}
 
 .media-image-fullscreen-1 {
   background-image: url("../img/phonecall.jpg");
@@ -53,23 +9,6 @@
 .media-image-fullscreen-2 {
   background-image: url("../img/white-min.jpg");
 }
-
-.swiper-slide-image-1 {
-  background-image: url("https://dummyimage.com/1440x900/383838/8d8d8d");
-}
-
-.swiper-slide-image-2 {
-  background-image: url("https://dummyimage.com/1440x900/383838/8d8d8d");
-}
-
-.swiper-slide-image-half-1 {
-  background-image: url("https://dummyimage.com/1200x1400/383838/8d8d8d");
-}
-
-.swiper-slide-image-half-2 {
-  background-image: url("https://dummyimage.com/1200x1400/383838/8d8d8d");
-}
-
 .media-services {
   background-image: url("../img/white-min.jpg");
 }
@@ -2043,6 +1982,7 @@ p.section-text:last-of-type {
   font: normal 400 3.4rem/1 "Yekan";
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 45px;
 }
 
 @media only screen and (min-width: 768px) {
