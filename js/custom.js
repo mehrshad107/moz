@@ -1,22 +1,4 @@
-// ------------------------------------------------
-// Table of Contents
-// ------------------------------------------------
-//
-//  1. Loader & Homescreen Slider Loading
-//  2. Main Section Loading Animation
-//  3. Swiper Slider Settings
-//  4. Vegas Kenburns
-//  5. KBW-Countdown
-//  6. Magnific Popup
-//  7. Mailchimp Notify Form
-//  8. Contact Form
-//  9. ParticlesJS Backgrounds
-//
-// ------------------------------------------------
-// Table of Contents End
-// ------------------------------------------------
-
-$(window).on("load", function() {
+$(window).on("load", function () {
 
   "use strict";
 
@@ -25,9 +7,9 @@ $(window).on("load", function() {
   // --------------------------------------------- //
   $(".loader__logo").addClass('scaleOut');
 
-  var mainSlider  = $('.main-slider')
+  var mainSlider = $('.main-slider')
 
-  setTimeout(function(){
+  setTimeout(function () {
     $('body').removeClass('overflow-hidden');
     $(".loader").addClass('loaded');
     if (mainSlider.length) {
@@ -62,7 +44,7 @@ $(window).on("load", function() {
   // --------------------------------------------- //
   // Main Section Loading Animation Start
   // --------------------------------------------- //
-  setTimeout(function(){
+  setTimeout(function () {
     $('body').addClass('loaded');
     $('.headline__animate').textillate({
       in: {
@@ -78,7 +60,7 @@ $(window).on("load", function() {
 
 });
 
-$(function() {
+$(function () {
 
   "use strict";
 
@@ -86,8 +68,8 @@ $(function() {
   // Swiper Slider Settings Start
   // --------------------------------------------- //
   var slider = $('.media-slider'),
-      aboutSlider = $('.about-slider'),
-      partnersSlider = $('.partners-slider');
+    aboutSlider = $('.about-slider'),
+    partnersSlider = $('.partners-slider');
 
   if (aboutSlider.length) {
     var swiper3 = new Swiper('.swiper-about', {
@@ -139,7 +121,7 @@ $(function() {
   // Vegas Kenburns Start
   // --------------------------------------------- //
   var bgndKenburns = $('#bgndKenburns');
-  if(bgndKenburns.length){
+  if (bgndKenburns.length) {
     bgndKenburns.vegas({
       timer: false,
       delay: 10000,
@@ -149,12 +131,12 @@ $(function() {
         { src: "https://dummyimage.com/1200x1400/383838/8d8d8d" },
         { src: "https://dummyimage.com/1200x1400/383838/8d8d8d" }
       ],
-      animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
+      animation: ['kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight']
     });
   };
 
   var bgndKenburnsFull = $('#bgndKenburnsFull');
-  if(bgndKenburnsFull.length){
+  if (bgndKenburnsFull.length) {
     bgndKenburnsFull.vegas({
       timer: false,
       delay: 10000,
@@ -165,19 +147,11 @@ $(function() {
         { src: "img/phonecall.jpg" },
         { src: "img/phonecall.jpg" }
       ],
-      animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
+      animation: ['kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight']
     });
   };
   // --------------------------------------------- //
   // Vegas Kenburns End
-  // --------------------------------------------- //
-
-  // --------------------------------------------- //
-  // KBW-Countdown Start
-  // --------------------------------------------- //
-  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2024, 3, 26), format: 'D'});
-  // --------------------------------------------- //
-  // KBW-Countdown End
   // --------------------------------------------- //
 
   // --------------------------------------------- //
@@ -191,82 +165,6 @@ $(function() {
   });
   // --------------------------------------------- //
   // Skillbar Settings End
-  // --------------------------------------------- //
-
-  // --------------------------------------------- //
-  // Magnific Popup Video Start
-  // --------------------------------------------- //
-  $('#inner-video-trigger').magnificPopup({
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-    fixedContentPos: false,
-    callbacks: {
-      beforeOpen: function() { $('body').addClass('overflow-hidden'); },
-      close: function() { $('body').removeClass('overflow-hidden'); }
-    }
-  });
-  // --------------------------------------------- //
-  // Magnific Popup Video End
-  // --------------------------------------------- //
-
-  // --------------------------------------------- //
-  // Mailchimp Notify Form Start
-  // --------------------------------------------- //
-  $('.notify-form').ajaxChimp({
-    callback: mailchimpCallback,
-    url: 'https://besaba.us10.list-manage.com/subscribe/post?u=e8d650c0df90e716c22ae4778&amp;id=54a7906900'
-  });
-
-  function mailchimpCallback(resp) {
-    if(resp.result === 'success') {
-      $('.notify').find('.form').addClass('is-hidden');
-      $('.notify').find('.subscription-ok').addClass('is-visible');
-      setTimeout(function() {
-        // Done Functions
-        $('.notify').find('.subscription-ok').removeClass('is-visible');
-        $('.notify').find('.form').delay(300).removeClass('is-hidden');
-        $('.notify-form').trigger("reset");
-      }, 5000);
-    } else if(resp.result === 'error') {
-      $('.notify').find('.form').addClass('is-hidden');
-      $('.notify').find('.subscription-error').addClass('is-visible');
-      setTimeout(function() {
-        // Done Functions
-        $('.notify').find('.subscription-error').removeClass('is-visible');
-        $('.notify').find('.form').delay(300).removeClass('is-hidden');
-        $('.notify-form').trigger("reset");
-      }, 5000);
-    }
-  };
-  // --------------------------------------------- //
-  // Mailchimp Notify Form End
-  // --------------------------------------------- //
-
-  // --------------------------------------------- //
-  // Contact Form Start
-  // --------------------------------------------- //
-  $("#contact-form").submit(function() { //Change
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "mail.php", //Change
-			data: th.serialize()
-		}).done(function() {
-      $('.contact').find('.form').addClass('is-hidden');
-      $('.contact').find('.reply-group').addClass('is-visible');
-			setTimeout(function() {
-				// Done Functions
-        $('.contact').find('.reply-group').removeClass('is-visible');
-        $('.contact').find('.form').delay(300).removeClass('is-hidden');
-				th.trigger("reset");
-			}, 5000);
-		});
-		return false;
-	});
-  // --------------------------------------------- //
-  // Contact Form End
   // --------------------------------------------- //
 
   // --------------------------------------------- //
@@ -391,115 +289,115 @@ $(function() {
   var bgndParticles = $('#particles-js');
   if (bgndParticles.length) {
     particlesJS('particles-js', {
-        "particles": {
-          "number": {
-            "value": 80,
-            "density": {
-              "enable": true,
-              "value_area": 800
-            }
-          },
-          "color": {
-            "value": "#ead9ff"
-          },
-          "shape": {
-            "type": "circle",
-            "stroke": {
-              "width": 0,
-              "color": "#000000"
-            },
-            "polygon": {
-              "nb_sides": 5
-            },
-            "image": {
-              "src": "img/github.svg",
-              "width": 100,
-              "height": 100
-            }
-          },
-          "opacity": {
-            "value": 0.5,
-            "random": true,
-            "anim": {
-              "enable": true,
-              "speed": 1,
-              "opacity_min": 0.1,
-              "sync": false
-            }
-          },
-          "size": {
-            "value": 3,
-            "random": true,
-            "anim": {
-              "enable": false,
-              "speed": 80,
-              "size_min": 0.1,
-              "sync": false
-            }
-          },
-          "line_linked": {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
             "enable": true,
-            "distance": 180,
-            "color": "#ffffff",
-            "opacity": 0.2,
-            "width": 1
-          },
-          "move": {
-            "enable": true,
-            "speed": 3,
-            "direction": "none",
-            "random": false,
-            "straight": false,
-            "out_mode": "out",
-            "bounce": false,
-            "attract": {
-              "enable": false,
-              "rotateX": 600,
-              "rotateY": 1200
-            }
+            "value_area": 800
           }
         },
-        "interactivity": {
-          "detect_on": "canvas",
-          "events": {
-            "onhover": {
-              "enable": true,
-              "mode": "repulse"
-            },
-            "onclick": {
-              "enable": false,
-              "mode": "push"
-            },
-            "resize": true
+        "color": {
+          "value": "#ead9ff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
           },
-          "modes": {
-            "grab": {
-              "distance": 800,
-              "line_linked": {
-                "opacity": 1
-              }
-            },
-            "bubble": {
-              "distance": 800,
-              "size": 80,
-              "duration": 2,
-              "opacity": 0.8,
-              "speed": 3
-            },
-            "repulse": {
-              "distance": 100,
-              "duration": 0.4
-            },
-            "push": {
-              "particles_nb": 4
-            },
-            "remove": {
-              "particles_nb": 2
-            }
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
           }
         },
-        "retina_detect": true
-      });
+        "opacity": {
+          "value": 0.5,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 80,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 180,
+          "color": "#ffffff",
+          "opacity": 0.2,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 3,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": false,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 800,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 800,
+            "size": 80,
+            "duration": 2,
+            "opacity": 0.8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 100,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
   };
   // --------------------------------------------- //
   // ParticlesJS Backgrounds End
